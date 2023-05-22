@@ -120,4 +120,7 @@ h3 {
     .content {
         margin-left: 40%;
     }
+    .desktop-only {
+        display: none;
+    }
 }
