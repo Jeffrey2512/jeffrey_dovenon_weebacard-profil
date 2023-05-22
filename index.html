@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <title>Site Responsive avec Barre Latérale Transparente et Menu</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="sidebar">
+      <img class="image" src="./assets/img/pp.png"/>
+      <br>
+      <h3>Jeffrey Dovenon</h3>
+
+      <div class="icon-list">
+        <div class="icon">
+          <img onclick="envoyerWhatsApp()" src="./assets/icon/whatsapp.png">
+          <img onclick="envoyerInstagramme()" src="./assets/icon/instagram.png">
+        </div>
+        <div class="icon">
+          <img onclick="envoyerFacebook()" src="./assets/icon/facebook.png">
+          <img onclick="" src="./assets/icon/linternet.png">
+        </div>
+        <div class="icon">
+          <img onclick="envoyerYoutube()" src="./assets/icon/youtube.png">
+          <img onclick="envoyermail()" src="./assets/icon/email.png">
+        </div>
+        <div class="icon">
+          <img onclick="envoyerTelephone()" src="./assets/icon/telephone.png">
+          <img onclick="envoyertwitter()" src="./assets/icon/twitter.png">
+        </div>
+      </div>
+
+      
+    </div>
+    <div class="fixed-button" onClick="ajouterNouveauContact()">
+      <i class="fas fa-plus"></i>
+    </div>
+  </div>
+</body>
+</html>
